@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        var input = prompt("숫자를 입력하세요", "1~10까지")
+        //,로 연결하여 뒤에 입력하는 문자는 placeholder 역할
+        var n_input = Number(input)
+
+        alert(input)
+
+        var con= confirm("수락하시겠습니까?")
+        //확인(true) 취소(false)로 값이 나옴
+        alert(con)
+
+
+        console.log("52 + 270")
+        // ""안에 써서 문자처럼 쓴거라 연산 안되고 문자그대로 출력됨
+        console.log(52 + 270)
+        //""없이 써서 숫자로 인식해서 숫자가 연산되어 출력됨
+        console.log("52" + 270)
+        //문자와 숫자가 섞이면 붙어서 출력됨
+        //(이때 더하기는 두 개를 연결해주는 역할로 출력되지 않음)
+        console.log(52 + "270")
+
+        console.log("52 * 270")
+        // ""안에 써서 문자처럼 쓴거라 연산 안되고 문자그대로 출력됨
+        console.log(52 * 270)
+        //""없이 써서 숫자로 인식해서 숫자가 연산되어 출력됨
+        console.log("52" * 270)
+        //한 개는 숫자로 한 개는 문자지만 *는 연산 해줌
+        console.log(52 * "270")
+
+        
+        
+        
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

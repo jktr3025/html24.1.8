@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        // var number = Math.sqrt(-3) 
+        //Nan (결과없음) 루트는 제곱해서 마이너스가 나올 수 없음
+        // var number = Math.sqrt(4)
+        // alert(number)
+
+        // var flo = Math.floor(5.87)
+        // alert(flo)
+        // //소수점 뒤에 결과는 버리고 정수만 가져옴
+
+        // var rou = Math.round(5.87)
+        // alert(rou)
+        // // 반올림한 정수를 가져옴
+
+        //변수 선언 종류
+        // var 변수 = 전역; 재선언 가능
+        // let 변수 = 해당; 재선언 불가능
+        // const 상수 = 해당; 재선언 불가능
+
+        var varA = 52;
+        let varB = 200;
+        const varC = 100;
+
+        // alert(varA)
+        // alert(varB)
+        // alert(varC)
+
+        varA = 500;
+        varB = 300;
+        // let varB = 300;
+        // varC = 700;
+        //const 는재선언이 안되므로 오류남
+        // 그래서 varA, varB에 문제없어도 아래 결과가 출력안 됨
+        //비슷한 예로 varB로만 재선언을 하면 문제가 없으나
+        //let까지 붙여서 let varB로 재선언하면 오류남
+
+        console.log(varA)
+        console.log(varB)
+        console.log(varC)
+
+        alert(varA)
+        alert(varB)
+        alert(varC)
+
+
+        //전역함수와 해당함수
+        //전역함수는 전체 범위에서 도는 함수이고 해당 함수는 범위 안에서만 도는 함수
+        // 전역번역{
+        //     해당(지역변수)
+        //     {
+        //     해당(지역변수)
+        //     }
+        // }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
